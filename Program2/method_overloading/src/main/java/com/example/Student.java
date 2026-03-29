@@ -4,7 +4,9 @@ public class Student {
     String name;
     static String universityName = "Southeast University";
 
-    public void showName() {
+    public Student() {}
+
+    public void displayName() {
         System.out.println("Studnet name: " + this.name);
     }
 
